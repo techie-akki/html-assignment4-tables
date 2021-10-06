@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Html Table One</title>
+    <style>
+        table, td, th{
+            border: 1px gray solid;
+            text-align: center;
+            border-collapse: collapse;
+            
+        }
+        table{
+            width: 500px;
+            height: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th rowspan="2" colspan="2">State of Health</th>
+            <th rowspan="1" colspan="2" >Fasting Value</th>
+            <th rowspan="1" colspan="2">After Eating</th>
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <th>2 hours after eating</th>
+        </tr>
+        <tr>
+            <td colspan="2">Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td colspan="2">Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td colspan="2">Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
